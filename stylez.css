@@ -1,0 +1,175 @@
+* {
+    font-family:, 'Arial Narrow', Arial, sans-serif;
+}
+
+.m1{
+    padding: 80px;
+    color: white;
+    width: auto;
+    max-width: 300px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+    height:auto;
+    transition: 2s;
+}
+
+input {
+    margin: 10px;
+}
+
+@keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  body {
+    background: linear-gradient(90deg, rgb(21, 31, 110), rgb(86, 13, 149),rgb(11, 20, 88) 100%);
+    background-size: 200% auto;
+    animation: gradient 10s ease infinite; 
+}
+
+button {
+    border-radius:20px;
+}
+input{
+  border-radius: 10px;
+  
+  margin: 40px 0;
+}
+
+
+
+button {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    padding: 5px 20px;
+    text-decoration: none;
+    border-radius: 30px;
+    max-height: 50px;
+    margin: 20px 0;
+}
+
+.button:hover {
+
+    transition: 0.5s;
+    background-color: #38c12b;
+}
+
+
+.del {
+    background-color: rgb(0, 64, 255);
+    color: white;
+    border-radius: 20px;padding: 3px;
+    
+    transition: 1.5s;
+    
+}
+
+.del:hover{
+    
+    transition: 0.5s;
+    background-color: #6a2bc1;
+}
+
+
+.inputbox{
+    position: relative;
+    margin: 10px 40px;
+    margin-top: -20px;
+}
+.inputbox label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translate(-50%);
+    color: #fff;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+}
+input:focus ~ label,
+input:valid ~ label{
+    top: -5px;
+}
+.inputbox input{
+    width:100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font: 1em;
+    padding: 0 35px 0 15px;
+    color: #fff;
+}
+.inputbox ion-icon{
+    position:absolute;
+    right: 8px;
+    color: #fff;
+    font-size: 1.2em;
+    top: 20px;
+}
+.forget{
+    margin: -15px 0 15px;
+    font-size: .9em;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.forget-label input{
+    margin-right: 3px;
+}
+.forget-label a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 60px;
+}
+.forget-label a:hover {
+    text-decoration: underline;
+}
+
+
+a{
+    color: #fff;
+    text-decoration: none;
+  }
+
+  
+  .kirim {
+    display: block;
+    margin-top: 5px;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    padding: 10px 20px;
+    text-decoration: none;
+    
+    transition: 2s;
+border-radius: 20px;
+}
+
+.bayar {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    padding: 10px 20px;
+    text-decoration: none;
+    
+    transition: 2s;
+border-radius: 20px;
+}

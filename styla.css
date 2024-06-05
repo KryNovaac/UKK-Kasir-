@@ -1,0 +1,162 @@
+.a1 {
+    
+    padding: 80px;
+    color: white;
+    max-width:60%;
+    padding: 20px;
+    height:auto;
+    transition: 2s;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+}
+
+input {
+    margin: 10px;border-radius:10px ;
+}
+
+body {
+    background: linear-gradient(90deg, rgb(21, 31, 110), rgb(86, 13, 149),rgb(11, 20, 88) 100%);
+    background-size: 200% auto;
+    animation: gradient 10s ease infinite; 
+}
+
+@keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+
+h1{
+    transition: 2s;
+    background: linear-gradient(90deg, rgb(31, 47, 168), rgb(115, 57, 165),rgb(11, 20, 88) 100%);
+    background-size: 200% auto;
+    color: #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    animation: gradient 2s ease infinite;
+}
+
+a{
+    
+    text-decoration: none;
+}
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    td  {
+        padding: 10px;
+        text-align: center; 
+    }
+    th {
+        padding: 10px;
+        border-bottom: 1px solid #ddd;
+    }
+    
+    .kirim {
+        font-weight: bold;
+        color: #fff;
+        background-color: #007bff;
+        padding: auto;
+        text-decoration: none;
+        transition: 2s;
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
+    
+    }
+
+    .kirim:hover{
+        
+        transition: 0.5s;
+        background-color: #6a2bc1;
+    }
+
+.formone {
+  justify-content: center;
+  display: flex;
+  
+}
+
+button {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 30px;
+    max-height: 50px;
+}
+
+button:hover {
+
+    transition: 1.0s;
+    background-color: #35479a;
+}
+
+
+.del {
+    background-color: rgb(0, 64, 255);
+    color: white;
+    border-radius: 20px;padding: 3px;
+    transition: 1.5s;
+}
+
+.del:hover{
+    
+    transition: 0.5s;
+    background-color: #6a2bc1;
+}
+
+
+.inputbox{
+    position: relative;
+}
+.inputbox label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translate(-50%);
+    color: #fff;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+}
+input:focus ~ label,
+input:valid ~ label{
+    top: -5px;
+}
+.inputbox input{
+    background: transparent;
+    border: none;
+    outline: none;
+    font: 1em;
+    padding: 0 35px 0 5px;
+    color: #fff;
+}
+.inputbox ion-icon{
+    position:absolute;
+    right: 8px;
+    color: #fff;
+    font-size: 1.2em;
+    top: 20px;
+}
+
+.tombolk {
+    display: flex;
+    margin-left: 55px;
+}
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

@@ -1,0 +1,117 @@
+
+h1{
+    transition: 2s;
+    background: linear-gradient(90deg, rgb(31, 47, 168), rgb(115, 57, 165),rgb(11, 20, 88) 100%);
+    background-size: 200% auto;
+    color: #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    animation: gradient 2s ease infinite;
+}
+
+a{
+    
+    text-decoration: none;
+}
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th, td {
+        padding: 10px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+    .m1{
+        background-color: rgba(0, 0, 0, 0.3);
+        border-radius: 20px;
+        backdrop-filter: blur(5px);
+        padding: 80px;
+        color: white;
+        width: auto;
+        max-width: 40%;
+        padding: 20px;
+        border-radius: 20px;
+        height:auto;
+        transition: 2s;
+        background-color: rgba(0, 0, 0, 0.3);
+        border-radius: 20px;
+        backdrop-filter: blur(5px);
+    }
+    
+    
+    @keyframes gradient {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+    
+      body {
+        background: linear-gradient(90deg, rgb(21, 31, 110), rgb(86, 13, 149),rgb(11, 20, 88) 100%);
+        background-size: 200% auto;
+        animation: gradient 10s ease infinite; 
+    }
+    
+    td,th{
+        color: white;
+    }
+    tr{
+        border:white;
+    }
+    
+    a{
+        
+      text-decoration: none;
+    }
+    
+    
+    .kirim {
+        display: block;
+        margin-top: 20px;
+        text-align: center;
+        font-weight: bold;
+        color: #fff;
+        background-color: #007bff;
+        padding: 10px 20px;
+        text-decoration: none;
+        margin: 10px;
+        transition: 2s;
+        border-radius: 20px;
+    }
+    
+    .cetak {
+        
+        display: block;
+        margin-top: 20px;
+        text-align: center;
+        font-weight: bold;
+        color: #fff;
+        background-color: #007893;
+        padding: 10px 20px;
+        text-decoration: none;
+        margin: 10px;
+        transition: 2s;
+        border-radius: 20px;
+    }
+    .cetak:hover,.kirim:hover {
+        transition: 1.5;
+        background-color: #013268;
+    }
+    * {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    @media print {
+        .kirim,
+        .cetak {
+            display: none;
+        }
+    }
+    
